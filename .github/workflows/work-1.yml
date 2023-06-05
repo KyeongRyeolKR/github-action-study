@@ -11,3 +11,8 @@ jobs:
         run: echo "Hi"
       - name: sayMyName
         run: echo "${{ github.actor }}"
+  hello2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: sayHello
+        run: echo "Hello"
